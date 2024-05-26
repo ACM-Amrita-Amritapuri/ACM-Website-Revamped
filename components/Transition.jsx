@@ -1,5 +1,6 @@
 import { motion } from "framer-motion";
 import Image from "next/image";
+import Link from "next/link";
 
 const Transition = () => {
   const transitionVariants = {
@@ -31,7 +32,7 @@ const Transition = () => {
     >
       <div className="flex justify-center items-center w-full h-full">
         {/* Add your image here */}
-        <img src="/Avatar.png" alt="Your Image" className="w-1/2" />
+        <img src="/acm-alone.png" className="w-1/6" />
       </div>
     </motion.div>
       <motion.div
