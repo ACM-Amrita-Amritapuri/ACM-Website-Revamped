@@ -1,5 +1,6 @@
 import { motion } from "framer-motion";
 import { useState } from "react";
+import Image from "next/image";
 import CountUp from "react-countup";
 import {
   FaCss3,
@@ -22,27 +23,6 @@ import { fadeIn } from "../../variants";
 
 //  data
 export const aboutData = [
-  {
-    title: "skills",
-    info: [
-      {
-        title: "Web Development",
-        icons: [
-          FaHtml5,
-          FaCss3,
-          FaJs,
-          FaReact,
-          SiNextdotjs,
-          SiFramer,
-          FaWordpress,
-        ],
-      },
-      {
-        title: "UI/UX Design",
-        icons: [FaFigma, SiAdobexd, SiAdobephotoshop],
-      },
-    ],
-  },
   {
     title: "awards",
     info: [
@@ -72,24 +52,7 @@ export const aboutData = [
         stage: "2008 - 2010",
       },
     ],
-  },
-  {
-    title: "credentials",
-    info: [
-      {
-        title: "Web Development - ABC University, LA, CA",
-        stage: "2011",
-      },
-      {
-        title: "Computer Science Diploma - AV Technical Institute",
-        stage: "2009",
-      },
-      {
-        title: "Certified Graphic Designer - ABC Institute, Los Angeles, CA",
-        stage: "2006",
-      },
-    ],
-  },
+  }
 ];
 
 const About = () => {
@@ -120,8 +83,7 @@ const About = () => {
             exit="hidden"
             className="h2"
           >
-            Captivating <span className="text-accent">stories</span> birth
-            magnificent designs.
+            About <span className="text-accent">us</span>
           </motion.h2>
           <motion.p
             variants={fadeIn("right", 0.4)}
@@ -129,9 +91,7 @@ const About = () => {
             animate="show"
             className="max-w-[500px] mx-auto xl:mx-0 mb-6 xl:mb-12 px-2 xl:px-0"
           >
-            10 years ago, I begin freelancing as a developer. Since then, I've
-            done remote work for agencies, consulted for startups, and
-            collabrated on digital products for business and consumer use.
+            We are a group of computer science enthusiasts promoting self-education and group-based learning through Student Interest Groups (SIGs) focused on topics such as AI, Cybersecurity, Game Dev, Competitive Programming, Blockchain Dev and more. Join us based on your expertise in a certain field and contribute to an SIG by contacting us.
           </motion.p>
 
           {/* counters */}
@@ -145,30 +105,29 @@ const About = () => {
               {/* experience */}
               <div className="relative flex-1 after:w-[1px] after:h-full after:bg-white/10 after:absolute after:top-0 after:right-0">
                 <div className="text-2xl xl:text-4xl font-extrabold text-accent mb-2">
-                  <CountUp start={0} end={10} duration={5} />
+                  <CountUp start={0} end={3} duration={5} />
                 </div>
                 <div className="text-xs uppercase tracking-[1px] leading-[1.4] max-w-[100px]">
-                  Years of experience.
+                  Years since establishment
                 </div>
               </div>
 
-              {/* clients */}
               <div className="relative flex-1 after:w-[1px] after:h-full after:bg-white/10 after:absolute after:top-0 after:right-0">
                 <div className="text-2xl xl:text-4xl font-extrabold text-accent mb-2">
-                  <CountUp start={0} end={250} duration={5} />
+                  <CountUp start={0} end={89} duration={5} />
                 </div>
                 <div className="text-xs uppercase tracking-[1px] leading-[1.4] max-w-[100px]">
-                  Satisfied clients.
+                  Members
                 </div>
               </div>
 
               {/* projects */}
               <div className="relative flex-1 after:w-[1px] after:h-full after:bg-white/10 after:absolute after:top-0 after:right-0">
                 <div className="text-2xl xl:text-4xl font-extrabold text-accent mb-2">
-                  <CountUp start={0} end={650} duration={5} />
+                  <CountUp start={0} end={100} duration={5} />+
                 </div>
                 <div className="text-xs uppercase tracking-[1px] leading-[1.4] max-w-[100px]">
-                  Finished projects.
+                  Projects
                 </div>
               </div>
 
@@ -178,7 +137,7 @@ const About = () => {
                   <CountUp start={0} end={8} duration={5} />
                 </div>
                 <div className="text-xs uppercase tracking-[1px] leading-[1.4] max-w-[100px]">
-                  Winning awards.
+                  Paper publications
                 </div>
               </div>
             </div>
@@ -229,6 +188,9 @@ const About = () => {
                 </div>
               </div>
             ))}
+          </div>
+          <div className="mt-8 mx-auto max-w-3xl">
+            <img src="/avatar.png" alt="Descriptive Alt Text" className="w-full h-auto" />
           </div>
         </motion.div>
       </div>
