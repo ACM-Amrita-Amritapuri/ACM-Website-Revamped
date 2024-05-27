@@ -28,7 +28,7 @@ export const aboutData = [
     title: "awards",
     info: [
       {
-        title: "Webby Awards - Honoree",
+        title: "ICPC ",
         stage: "2011 - 2012",
       },
       {
@@ -60,8 +60,9 @@ const About = () => {
   const [index, setIndex] = useState(0);
 
   return (
-    <div className="h-full bg-primary/30 py-32 text-center xl:text-left">
+    <div className="h-full bg-primary/30 py-32 text-center xl:text-left relative">
       <Circles />
+      
 
       {/* avatar img */}
       <motion.div
@@ -77,6 +78,8 @@ const About = () => {
       <div className="container mx-auto h-full flex flex-col items-center xl:flex-row gap-x-6">
         {/* text */}
         <div className="flex-1 flex flex-col justify-center">
+          
+        <br />
           <motion.h2
             variants={fadeIn("right", 0.2)}
             initial="hidden"
@@ -92,7 +95,7 @@ const About = () => {
             animate="show"
             className="max-w-[500px] mx-auto xl:mx-0 mb-6 xl:mb-12 px-2 xl:px-0"
           >
-            We are a group of computer science enthusiasts promoting self-education and group-based learning through Student Interest Groups (SIGs) focused on topics such as AI, Cybersecurity, Game Dev, Competitive Programming, Blockchain Dev and more. Join us based on your expertise in a certain field and contribute to an SIG by contacting us.
+            We are a group of computer science enthusiasts promoting self-education and group-based learning through Student Interest Groups (SIGs) focused on topics such as AI, Cybersecurity, Game Dev, Competitive Programming, Blockchain Dev and more.
           </motion.p>
 
           {/* counters */}
@@ -152,12 +155,32 @@ const About = () => {
           >
             <div className="flex flex-1 xl:gap-x-6">
               {/* experience */}
-              <div className="relative flex-1">
+              <div className="relative flex-1 after:w-[1px] after:h-full after:bg-white/10 after:absolute after:top-0 after:right-0">
                 <div className="text-2xl xl:text-4xl font-extrabold text-accent mb-2">
-                  <CountUp start={0} end={10} duration={4} />
+                  <CountUp start={0} end={12} duration={4} />
                 </div>
                 <div className="text-xs uppercase tracking-[1px] leading-[1.4] max-w-[100px]">
-                  Internships acquired
+                  internships acquired
+                </div>
+              </div>
+
+              <div className="relative flex-1 after:w-[1px] after:h-full after:bg-white/10 after:absolute after:top-0 after:right-0">
+                <div className="text-2xl xl:text-4xl font-extrabold text-accent mb-2">
+                  <CountUp start={0} end={8} duration={4} />
+                </div>
+                <div className="text-xs uppercase tracking-[1px] leading-[1.4] max-w-[100px]">
+                  hackathon awards
+                </div>
+              </div>
+
+              {/* projects */}
+              {/* awards */}
+              <div className="relative flex-1">
+                <div className="text-2xl xl:text-4xl font-extrabold text-accent mb-2">
+                  <CountUp start={0} end={26} duration={4} />
+                </div>
+                <div className="text-xs uppercase tracking-[1px] leading-[1.4] max-w-[100px]">
+                  events hosted
                 </div>
               </div>
             </div>
@@ -209,8 +232,8 @@ const About = () => {
               </div>
             ))}
           </div>
-          <div className="mt-8 mx-auto max-w-3xl">
-            <img src="/avatar.png" alt="Descriptive Alt Text" className="w-full h-auto" />
+          <div className="mt-8 mx-auto max-w-3xl rounded-full overflow-hidden">
+            <img src="/group.png" alt="ACM" className="w-full h-auto" />
           </div>
         </motion.div>
       </div>
