@@ -1,11 +1,15 @@
 import {
-  RxCrop,
-  RxPencil2,
-  RxDesktop,
-  RxReader,
-  RxRocket,
-  RxArrowTopRight,
-} from "react-icons/rx";
+  HiMiniEye
+} from "react-icons/hi2";
+import {
+  TbTargetArrow
+} from "react-icons/tb";
+import {
+  FaHandHoldingHeart
+} from "react-icons/fa";
+import {
+  AiOutlineSlack
+} from "react-icons/ai";
 import { FreeMode, Pagination } from "swiper";
 import { Swiper, SwiperSlide } from "swiper/react";
 
@@ -15,33 +19,23 @@ import "swiper/css/pagination";
 
 const serviceData = [
   {
-    Icon: RxCrop,
-    title: "Branding",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    Icon: HiMiniEye,
+    title: "Vision",
+    description: "We envision a peaceful world where computing solves societal issues through skilled, self-motivated students.",
   },
   {
-    Icon: RxPencil2,
-    title: "Design",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    Icon: TbTargetArrow,
+    title: "Mission",
+    description: "Inspire computing students to excel creatively, making a profound positive impact on society.",
   },
   {
-    Icon: RxDesktop,
-    title: "Development",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-  },
-  {
-    Icon: RxReader,
-    title: "Copywriting",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-  },
-  {
-    Icon: RxRocket,
-    title: "SEO",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-  },
+    Icon: FaHandHoldingHeart,
+    title: "Values",
+    description: "We back inclusive computer science education, emphasizing teamwork and problem-solving skills.",
+  }
 ];
 
-const ServiceSlider = () => {
+const GoalsSlider = () => {
   return (
     <Swiper
       breakpoints={{
@@ -77,8 +71,8 @@ const ServiceSlider = () => {
 
             {/* arrow */}
             <div className="text-3xl">
-              <RxArrowTopRight
-                className="group-hover:rotate-45 group-hover:text-accent transition-all duration-300"
+              <AiOutlineSlack
+                className="group-hover:rotate-90 group-hover:text-accent transition-all duration-300"
                 aria-hidden
               />
             </div>
@@ -89,4 +83,4 @@ const ServiceSlider = () => {
   );
 };
 
-export default ServiceSlider;
+export default GoalsSlider;
