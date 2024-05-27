@@ -15,7 +15,7 @@ import {
 export const socialData = [
   {
     name: "Instagram",
-    link: "https://instagram.com",
+    link: "https://www.instagram.com/acm.amrita/",
     Icon: RiInstagramLine,
   },
   {
@@ -25,12 +25,12 @@ export const socialData = [
   },
   {
     name: "Github",
-    link: "https://github.com/sanidhyy/modern-portfolio",
+    link: "https://github.com/ACM-Amrita-Amritapuri",
     Icon: RiGithubFill,
   },
   {
     name: "LinkedIn",
-    link: "https://facebook.com",
+    link: "https://www.linkedin.com/company/acm-student-chapter-amrita-amritapuri/",
     Icon: RiLinkedinBoxFill,
   },
 ];
