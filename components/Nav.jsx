@@ -4,17 +4,19 @@ import { usePathname } from "next/navigation";
 // icons
 import {
   HiHome,
-  HiUser,
   HiViewColumns,
   HiRectangleGroup,
   HiChatBubbleBottomCenterText,
   HiEnvelope,
 } from "react-icons/hi2";
+import {
+  BsInfoCircleFill
+} from "react-icons/bs";
 
 // nav data
 export const navData = [
   { name: "home", path: "/", Icon: HiHome },
-  { name: "about", path: "/about", Icon: HiUser },
+  { name: "about us", path: "/about", Icon: BsInfoCircleFill },
   { name: "goals", path: "/goals", Icon: HiRectangleGroup },
   { name: "work", path: "/work", Icon: HiViewColumns },
   {

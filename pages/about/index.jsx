@@ -1,5 +1,6 @@
 import { motion } from "framer-motion";
 import { useState } from "react";
+import Bulb from "../../components/Bulb";
 import Image from "next/image";
 import CountUp from "react-countup";
 import {
@@ -151,9 +152,9 @@ const About = () => {
           >
             <div className="flex flex-1 xl:gap-x-6">
               {/* experience */}
-              <div className="relative flex-1 after:w-[1px] after:h-full after:bg-white/10 after:absolute after:top-0 after:right-0">
+              <div className="relative flex-1">
                 <div className="text-2xl xl:text-4xl font-extrabold text-accent mb-2">
-                  <CountUp start={0} end={9} duration={4} />
+                  <CountUp start={0} end={10} duration={4} />
                 </div>
                 <div className="text-xs uppercase tracking-[1px] leading-[1.4] max-w-[100px]">
                   Internships acquired
@@ -213,6 +214,7 @@ const About = () => {
           </div>
         </motion.div>
       </div>
+      <Bulb />
     </div>
   );
 };
