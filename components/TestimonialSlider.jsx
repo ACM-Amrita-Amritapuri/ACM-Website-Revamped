@@ -9,11 +9,11 @@ import "swiper/css/pagination";
 
 const testimonialData = [
   {
-    image: "/t-avt-1.png",
-    name: "Anne Smith",
-    position: "Customer",
+    image: "/dhruv ku.jpg",
+    name: "Dhruv R Kundan",
+    position: "Core Member",
     message:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum expedita odit beatae, cupiditate saepe quam officia aut placeat quas neque!",
+      "I was the one and only kundan in ACM",
   },
   {
     image: "/t-avt-2.png",
