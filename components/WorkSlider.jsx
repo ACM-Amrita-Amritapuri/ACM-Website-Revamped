@@ -140,11 +140,9 @@ const WorkSlider = () => {
     justifyContent: "center",
     position: "absolute",
     top: "45%",
-    transform: "translateY(-50%)",
     zIndex: 10,
     transition: "transform 0.3s ease",
-    transformOrigin: "center center", // Add transform-origin property
-    backgroundColor: "rgba(0, 0, 0, 0.5)", // Set background color
+    transformOrigin: "center center", // Add transform-origin property // Set background color
   }}
   onMouseEnter={(e) => {
     e.target.style.transform = "scale(1.2)";
@@ -167,11 +165,9 @@ const WorkSlider = () => {
     justifyContent: "center",
     position: "absolute",
     top: "45%",
-    transform: "translateY(-50%)",
     zIndex: 10,
     transition: "transform 0.3s ease",
-    transformOrigin: "center center", // Add transform-origin property
-    backgroundColor: "rgba(0, 0, 0, 0.5)", // Set background color
+    transformOrigin: "center center", // Add transform-origin property // Set background color
   }}
   onMouseEnter={(e) => {
     e.target.style.transform = "scale(1.2)";

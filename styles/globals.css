@@ -9,14 +9,14 @@
 .swiper-horizontal > .swiper-pagination-bullets .swiper-pagination-bullet,
 .swiper-pagination-horizontal.swiper-pagination-bullets
   .swiper-pagination-bullet {
-  background-color: #f13024;
+  background-color: #904799;
 }
 
 .swiper-button-next:after,
 .swiper-button-prev:after,
 .swiper-button-next:after,
 .swiper-rtl .swiper-button-prev:after {
-  color: #f13024;
+  color: #904799;
 }
 
 @layer base {
@@ -50,24 +50,4 @@
     @apply w-full h-[180px] p-6 rounded-lg resize-none;
   }
 }
-/*.swiper-button-prev,
-.swiper-button-next {
-  width: 44px;
-  height: 44px;
-  border-radius: 50%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
-  z-index: 10;
-  transition: transform 0.3s ease; /* Add transition for smooth zoom effect 
-}
 
-/* Hover effect to zoom in 
-.swiper-button-prev:hover,
-.swiper-button-next:hover {
-  transform: translateY(-50%) scale(1.2); /* Scale up the button 
-}
-*/
