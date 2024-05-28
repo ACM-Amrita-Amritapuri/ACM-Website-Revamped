@@ -9,8 +9,8 @@ import "swiper/css/pagination";
 
 const testimonialData = [
   {
-    image: "/dhruv ku.jpg",
-    name: "Dhruv R Kundan",
+    image: "/dhruvrk.jpg",
+    name: "Dhruv R Krishnan",
     position: "Core Member",
     message:
       "I was the one and only kundan in ACM",

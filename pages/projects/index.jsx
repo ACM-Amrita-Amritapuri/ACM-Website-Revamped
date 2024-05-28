@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 
-import Bulb from "../../components/Bulb";
+import BulbFull from "../../components/BulbFull";
 import Circles from "../../components/Circles";
 import WorkSlider from "../../components/WorkSlider";
 import { fadeIn } from "../../variants";
@@ -20,7 +20,7 @@ const Work = () => {
               exit="hidden"
               className="h2 xl:mt-12"
             >
-              Our <span className="text-accent">Projects .</span>
+              Our <span className="text-accent">Projects</span>
             </motion.h2>
             <motion.p
               variants={fadeIn("up", 0.4)}
@@ -29,8 +29,8 @@ const Work = () => {
               exit="hidden"
               className="mb-4 max-w-[400px] mx-auto lg:mx-0"
             >
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur
-              tempora eligendi, quisquam tempore sint reiciendis.
+              Delve into some of our most mind-blowing projects that we have
+              worked on.
             </motion.p>
           </div>
 
@@ -46,7 +46,7 @@ const Work = () => {
           </motion.div>
         </div>
       </div>
-      <Bulb />
+      <BulbFull />
     </div>
   );
 };

@@ -13,9 +13,9 @@ const workSlides = {
     {
       images: [
         {
-          title: "title",
-          path: "/thumb1.jpg",
-          link: "http://example.com",
+          title: "Gesture Gaming",
+          path: "/hill_climb.png",
+          link: "https://github.com/KrishFusionX/OpenCV_Mediapipe_Projects",
         },
         {
           title: "title",
