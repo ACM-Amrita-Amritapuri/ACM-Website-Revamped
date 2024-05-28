@@ -94,8 +94,8 @@ const Students = () => {
           instagram={student.instagram}
           linkedin={student.linkedin}
           github={student.github}
-          width={250}
-          height={250}
+          width={225}
+          height={225}
           alignRight={false}
         />
       </div>

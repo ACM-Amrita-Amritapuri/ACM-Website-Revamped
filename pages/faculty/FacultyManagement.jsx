@@ -4,7 +4,7 @@ import FacultyCards from "./FacultyCards";
 const FacultyManagement = () => {
     return (
         <>
-            <div className="faculty-header mt-[70px] flex justify-center items-center pt-5 pb-1">
+            <div className="faculty-header mt-[-17px] flex justify-center items-center pt-5 pb-1">
                 <div className="faculty-header-dot h-6 w-2 mr-2 bg-gradient-to-t from-blue-700 to-blue-400 rounded-sm"></div>
                 <h1 className="text-5xl text-white"><b>Faculty Management</b></h1>
             </div>
