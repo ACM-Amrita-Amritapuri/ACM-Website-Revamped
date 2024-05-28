@@ -3,6 +3,8 @@ import { BsArrowRight } from "react-icons/bs";
 
 import { fadeIn } from "../../variants";
 import { useState } from "react";
+import BulbFull from "../../components/BulbFull";
+import Circles from "../../components/Circles";
 
 const Contact = () => {
   const [isLoading, setIsLoading] = useState(false);
@@ -26,11 +28,9 @@ const Contact = () => {
 
   return (
     <div className="h-full bg-primary/30">
+      <Circles />
       <div className="container mx-auto py-32 text-center xl:text-left flex items-center justify-center h-full">
-        {/* text & form */}
-        <div className="flex flex-col w-full max-w-[700px]">
-          {/* text */}
-          <motion.h2
+        <motion.h2
             variants={fadeIn("up", 0.2)}
             initial="hidden"
             animate="show"
@@ -39,8 +39,12 @@ const Contact = () => {
           >
             Let's <span className="text-accent">connect.</span>
           </motion.h2>
+        {/* text & form  
+        <div className="flex flex-col w-full max-w-[700px]">
+          {/* text 
+          
 
-          {/* form */}
+          {/* form 
           <motion.form
             variants={fadeIn("up", 0.4)}
             initial="hidden"
@@ -53,7 +57,7 @@ const Contact = () => {
             // only needed for production (in netlify) to accept form input
             data-netlify="true"
           >
-            {/* input group */}
+            {/* input group 
             <div className="flex gap-x-6 w-full">
               <input
                 type="text"
@@ -111,8 +115,9 @@ const Contact = () => {
               />
             </button>
           </motion.form>
-        </div>
+        </div>*/}
       </div>
+      <BulbFull />
     </div>
   );
 };

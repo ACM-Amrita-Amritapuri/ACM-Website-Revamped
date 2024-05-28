@@ -24,33 +24,69 @@ import { fadeIn } from "../../variants";
 
 //  data
 export const aboutData = [
+  
   {
-    title: "awards",
+    title: "SIG AI",
     info: [
       {
-        title: "ICPC ",
-        stage: "2011 - 2012",
-      },
-      {
-        title: "Adobe Design Achievement Awards - Finalist",
-        stage: "2009 - 2010",
-      },
-    ],
-  },
-  {
-    title: "experience",
-    info: [
-      {
-        title: "UX/UI Designer - XYZ Company",
+        title: "Artificial Intelligence",
         stage: "2012 - 2023",
       },
       {
         title: "Web Developer - ABC Agency",
         stage: "2010 - 2012",
+      }
+    ],
+  },
+  {
+    title: "SIG CP",
+    info: [
+      {
+        title: "ICPC Asia-West Regional Finalists",
+        stage: "Mayank Pugalia & Ashwin",
       },
       {
-        title: "Intern - DEF Corporation",
-        stage: "2008 - 2010",
+        title: "2 Teams Awarded at Smart India Hackathon",
+        stage: "2021-22",
+      },
+    ],
+  },
+  {
+    title: "SIG Cyber",
+    info: [
+      {
+        title: "ICPC Asia-West Regional Finalists",
+        stage: "Mayank Pugalia & Ashwin",
+      },
+      {
+        title: "2 Teams Awarded at Smart India Hackathon",
+        stage: "2021-22",
+      },
+    ],
+  },
+  {
+    title: "Glitch",
+    info: [
+      {
+        title: "ICPC Asia-West Regional Finalists",
+        stage: "Mayank Pugalia & Ashwin",
+      },
+      {
+        title: "2 Teams Awarded at Smart India Hackathon",
+        stage: "2021-22",
+      },
+    ],
+  },
+  {
+    title: "Web @ ACM",
+    info: [
+      {
+        title: "ICPC Asia-West Regional Finalists",
+        stage: "Mayank Pugalia & Ashwin",
+      },
+      {
+        title: "2 Teams Awarded at Smart India Hackathon",
+        stage: "2021-22",
       },
     ],
   }

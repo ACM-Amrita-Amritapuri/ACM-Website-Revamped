@@ -15,12 +15,15 @@ import {
 import {
   IoLayers
 } from "react-icons/io5";
+import {
+  FaPeopleRoof
+} from "react-icons/fa6";
 
 // nav data
 export const navData = [
   {name: "home", path: "/", Icon: HiHome },
   {name: "about", path: "/about", Icon: BsInfoCircleFill },
-  {name: "students",path:"/students",Icon: HiUsers},
+  {name: "mentors",path:"/mentors",Icon: FaPeopleRoof},
   {name: "faculty",path:"/faculty",Icon: HiUsers},
   {name: "goals", path: "/goals", Icon: HiRectangleGroup },
   {name: "projects", path: "/projects", Icon: IoLayers },
