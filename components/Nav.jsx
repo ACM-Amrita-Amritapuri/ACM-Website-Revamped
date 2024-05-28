@@ -16,22 +16,6 @@ import {
 
 // nav data
 export const navData = [
-<<<<<<< Updated upstream
-  { name: "home", path: "/", Icon: HiHome },
-  { name: "about us", path: "/about", Icon: BsInfoCircleFill },
-  { name: "goals", path: "/goals", Icon: HiRectangleGroup },
-  { name: "projects", path: "/projects", Icon: HiViewColumns },
-  {
-    name: "testimonials",
-    path: "/testimonials",
-    Icon: HiChatBubbleBottomCenterText,
-  },
-  {
-    name: "contact",
-    path: "/contact",
-    Icon: HiEnvelope,
-  },
-=======
   {name: "home", path: "/", Icon: HiHome },
   {name: "about", path: "/about", Icon: BsInfoCircleFill },
   {name: "students",path:"/students",Icon: HiUsers},
@@ -40,7 +24,6 @@ export const navData = [
   {name: "work", path: "/work", Icon: HiViewColumns },
   {name: "testimonials",path: "/testimonials",Icon: HiChatBubbleBottomCenterText},
   {name: "contact",path: "/contact",Icon: HiEnvelope},
->>>>>>> Stashed changes
 ];
 
 const Nav = () => {
