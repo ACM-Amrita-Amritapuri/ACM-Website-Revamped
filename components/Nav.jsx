@@ -8,6 +8,7 @@ import {
   HiRectangleGroup,
   HiChatBubbleBottomCenterText,
   HiEnvelope,
+  HiUsers,
 } from "react-icons/hi2";
 import {
   BsInfoCircleFill
@@ -15,6 +16,7 @@ import {
 
 // nav data
 export const navData = [
+<<<<<<< Updated upstream
   { name: "home", path: "/", Icon: HiHome },
   { name: "about us", path: "/about", Icon: BsInfoCircleFill },
   { name: "goals", path: "/goals", Icon: HiRectangleGroup },
@@ -29,6 +31,16 @@ export const navData = [
     path: "/contact",
     Icon: HiEnvelope,
   },
+=======
+  {name: "home", path: "/", Icon: HiHome },
+  {name: "about", path: "/about", Icon: BsInfoCircleFill },
+  {name: "students",path:"/students",Icon: HiUsers},
+  {name: "faculty",path:"/faculty",Icon: HiUsers},
+  {name: "goals", path: "/goals", Icon: HiRectangleGroup },
+  {name: "work", path: "/work", Icon: HiViewColumns },
+  {name: "testimonials",path: "/testimonials",Icon: HiChatBubbleBottomCenterText},
+  {name: "contact",path: "/contact",Icon: HiEnvelope},
+>>>>>>> Stashed changes
 ];
 
 const Nav = () => {
