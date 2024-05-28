@@ -1,6 +1,5 @@
 import React from 'react';
 import StudentCard from "./StudentCard";
-import { Carousel } from 'react-responsive-carousel';
 import 'react-responsive-carousel/lib/styles/carousel.min.css';
 
 const Students = () => {
@@ -86,71 +85,21 @@ const Students = () => {
   ];
 
   const renderCards = () => {
-    const cards = [];
-    for (let i = 0; i < studentCards.length; i += 4) {
-      cards.push(
-        <div className="flex justify-center" key={i}>
-          <div className="mr-10">
-            <StudentCard
-              src={studentCards[i].src}
-              name={studentCards[i].name}
-              position={studentCards[i].position}
-              instagram={studentCards[i].instagram}
-              linkedin={studentCards[i].linkedin}
-              github={studentCards[i].github}
-              width={300}
-              height={400}
-              alignRight={false}
-            />
-          </div>
-          {studentCards[i + 1] && (
-            <div className="mr-10">
-              <StudentCard
-                src={studentCards[i + 1].src}
-                name={studentCards[i + 1].name}
-                position={studentCards[i + 1].position}
-                instagram={studentCards[i + 1].instagram}
-                linkedin={studentCards[i + 1].linkedin}
-                github={studentCards[i + 1].github}
-                width={300}
-                height={400}
-                alignRight={true}
-              />
-            </div>
-          )}
-
-           {studentCards[i + 2] && (
-            <div className="mr-10">
-              <StudentCard
-                src={studentCards[i + 2].src}
-                name={studentCards[i + 2].name}
-                position={studentCards[i + 2].position}
-                instagram={studentCards[i + 2].instagram}
-                linkedin={studentCards[i + 2].linkedin}
-                github={studentCards[i + 2].github}
-                width={300}
-                height={400}
-                alignRight={true}
-              />
-            </div>
-          )}
-          {studentCards[i + 3] && (
-            <StudentCard
-              src={studentCards[i + 3].src}
-              name={studentCards[i + 3].name}
-              position={studentCards[i + 3].position}
-              instagram={studentCards[i + 3].instagram}
-              linkedin={studentCards[i + 3].linkedin}
-              github={studentCards[i + 3].github}
-              width={300}
-              height={400}
-              alignRight={true}
-            />
-          )}
-        </div>
-      );
-    }
-    return cards;
+    return studentCards.map((student, index) => (
+      <div key={index} className="p-4">
+        <StudentCard
+          src={student.src}
+          name={student.name}
+          position={student.position}
+          instagram={student.instagram}
+          linkedin={student.linkedin}
+          github={student.github}
+          width={275}
+          height={275}
+          alignRight={false}
+        />
+      </div>
+    ));
   };
 
   return (
@@ -159,18 +108,9 @@ const Students = () => {
         <div className="faculty-header-dot h-6 w-3 mr-10 mt-[15px] bg-gradient-to-t from-blue-700 to-blue-400 rounded-sm"></div>
         <div className='text-5xl font-bold text-center text-slate-100/80'>Student Management</div>
       </div>
-      <div className='flex justify-center'>
-        <Carousel
-          showArrows={true}
-          showThumbs={false}
-          infiniteLoop={true}
-          showStatus={false}
-          autoPlay={true}
-          interval={3000}
-        >
+        <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-5 gap-8'>
           {renderCards()}
-        </Carousel>
-      </div>
+        </div>
     </div>
   );
 }
