@@ -23,9 +23,9 @@ import {
 export const navData = [
   {name: "home", path: "/", Icon: HiHome },
   {name: "about", path: "/about", Icon: BsInfoCircleFill },
+  {name: "goals", path: "/goals", Icon: HiRectangleGroup },
   {name: "mentors",path:"/mentors",Icon: FaPeopleRoof},
   {name: "faculty",path:"/faculty",Icon: HiUsers},
-  {name: "goals", path: "/goals", Icon: HiRectangleGroup },
   {name: "projects", path: "/projects", Icon: IoLayers },
   {name: "testimonials",path: "/testimonials",Icon: HiChatBubbleBottomCenterText},
   {name: "contact",path: "/contact",Icon: HiEnvelope},
