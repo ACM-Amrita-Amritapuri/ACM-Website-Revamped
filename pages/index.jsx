@@ -32,10 +32,9 @@ const Home = () => {
             exit="hidden"
             className="max-w-sm xl:max-w-xl mx-auto xl:mx-0 mb-10 xl:mb-16"
           >
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptate,
-            exercitationem harum, quia nulla temporibus deleniti libero veniam
-            vero beatae numquam ducimus illum ab similique ipsam tempore fugit
-            quod laudantium debitis.
+            Welcome to the realm of ACM, where the boundaries of technology are
+            pushed to the limits. Here, every idea has the potential to bring about change.
+            Together, we are not just adapting to the future; we are actively shaping it, as a <span className="text-accent font-bold text-lg">FAMILY</span>.
           </motion.p>
 
           {/* btn */}
