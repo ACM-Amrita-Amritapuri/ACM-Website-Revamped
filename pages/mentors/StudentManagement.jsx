@@ -1,4 +1,5 @@
 import React from 'react';
+import { Box, Grid, GridItem, Text, Flex } from '@chakra-ui/react';
 import StudentCard from "./StudentCard";
 import 'react-responsive-carousel/lib/styles/carousel.min.css';
 
@@ -86,7 +87,7 @@ const Students = () => {
 
   const renderCards = () => {
     return studentCards.map((student, index) => (
-      <div key={index} className="p-4">
+      <Box key={index} p={4}>
         <StudentCard
           src={student.src}
           name={student.name}
@@ -98,20 +99,43 @@ const Students = () => {
           height={225}
           alignRight={false}
         />
-      </div>
+      </Box>
     ));
   };
 
   return (
-    <div className='flex flex-col items-center backstudmanage'>
-      <div className='flex justify-center mb-20'>
-        <div className="faculty-header-dot h-6 w-3 mr-10 mt-[15px] bg-gradient-to-t from-blue-700 to-blue-400 rounded-sm"></div>
-        <div className='text-5xl font-bold text-center text-slate-100/80'>Student Management</div>
-      </div>
-        <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-5 gap-8'>
+    <Flex flexDirection="column" alignItems="center" className='backstudmanage'>
+      <Flex justifyContent="center" mb={20}>
+        <Box h={6} w={3} mr={10} mt="15px" bgGradient="linear(to-t, blue.700, blue.400)" rounded="sm"></Box>
+        <Text fontSize="5xl" fontWeight="bold" textAlign="center" color="slate.100" opacity={0.8}>Student Management</Text>
+      </Flex>
+      <Box
+        width="100%"
+        overflowY="auto"
+        height={{ base: '70vh', lg: '85vh' }}
+        className="backstudmanage"
+        css={{
+          '&::-webkit-scrollbar': {
+            width: '5px',
+          },
+          '&::-webkit-scrollbar-track': {
+            background: '#4a4aa2',
+          },
+          '&::-webkit-scrollbar-thumb': {
+            background: '#393970',
+            borderRadius: '20px',
+            border: '3px solid #1a1a2e',
+          },
+          '&::-webkit-scrollbar-thumb:hover': {
+            background: '#80fffb',
+          },
+        }}
+      >
+        <Grid templateColumns="repeat(5, 1fr)" gap={8}>
           {renderCards()}
-        </div>
-    </div>
+        </Grid>
+      </Box>
+    </Flex>
   );
 }
 
