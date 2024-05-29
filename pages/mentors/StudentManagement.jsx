@@ -1,5 +1,5 @@
 import React from 'react';
-import { Box, Grid, GridItem, Text, Flex } from '@chakra-ui/react';
+import { Box, Grid, Text, Flex } from '@chakra-ui/react';
 import StudentCard from "./StudentCard";
 import 'react-responsive-carousel/lib/styles/carousel.min.css';
 
@@ -105,18 +105,19 @@ const Students = () => {
 
   return (
     <Flex flexDirection="column" alignItems="center" className='backstudmanage'>
-      <Flex justifyContent="center" mb={20}>
-        <Box h={6} w={3} mr={10} mt="15px" bgGradient="linear(to-t, blue.700, blue.400)" rounded="sm"></Box>
-        <Text fontSize="5xl" fontWeight="bold" textAlign="center" color="slate.100" opacity={0.8}>Student Management</Text>
+      <Flex justifyContent="center" mb={10}>
+        <Box h={12} w={3} mr={3} mt="17px" bgGradient="linear(to-t, blue.700, blue.400)" rounded="sm"></Box>
+        <Text fontSize="5xl" fontWeight="bold" textAlign="center" color="white">Student Management</Text>
       </Flex>
       <Box
         width="100%"
         overflowY="auto"
-        height={{ base: '70vh', lg: '85vh' }}
+        height={{ base: '50vh', lg: '64vh' }}
         className="backstudmanage"
         css={{
           '&::-webkit-scrollbar': {
-            width: '5px',
+            width: '10px',
+            height: '10px',
           },
           '&::-webkit-scrollbar-track': {
             background: '#4a4aa2',
@@ -131,7 +132,7 @@ const Students = () => {
           },
         }}
       >
-        <Grid templateColumns="repeat(5, 1fr)" gap={8}>
+        <Grid templateColumns="repeat(5, 1fr)" gap={5}>
           {renderCards()}
         </Grid>
       </Box>

@@ -51,3 +51,27 @@
   }
 }
 
+/* global.css or a custom CSS file */
+
+.backfacultymanage {
+  background: #1a1a2e; /* Background color */
+}
+
+.backfacultymanage::-webkit-scrollbar {
+  width: 12px;
+  color: #80fffb;
+}
+
+.backfacultymanage::-webkit-scrollbar-track {
+  background: #4a4aa2; /* Background color */
+}
+
+.backfacultymanage::-webkit-scrollbar-thumb {
+  background-color: #393970; /* Scrollbar thumb color */
+  border-radius: 20px;
+  border: 3px solid #1a1a2e; /* Creates padding around scrollbar thumb */
+}
+
+.backfacultymanage::-webkit-scrollbar-thumb:hover {
+  background-color: #80fffb; /* Scrollbar thumb color on hover */
+}
