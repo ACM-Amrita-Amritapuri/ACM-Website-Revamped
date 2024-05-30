@@ -9,25 +9,32 @@ import "swiper/css/pagination";
 
 const testimonialData = [
   {
-    image: "/dhruvrk.jpg",
-    name: "Dhruv R Krishnan",
-    position: "Core Member",
+    image: "/neeraja.jpg",
+    name: "R Neeraja Anand",
+    position: "Alumni (2020-2024)",
     message:
-      "it was a very good experience to lead the club as one of the core member",
+      "I believe ACM shapes and prepares anyone enthusiastic to learn more and try out different technologies. Joining here had taken the static concepts learnt in classrooms and visualize something beyond papers and walls. Notably, the people networking and organization eases the transition from a student to a working professional.  Joining ACM is definitely a no-brainer!",
   },
   {
-    image: "/t-avt-2.png",
-    name: "Jane Doe",
-    position: "Customer",
+    image: "/sudhin.jpg",
+    name: "Sudhin S",
+    position: "Alumni (2020-2024)",
     message:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum expedita odit beatae, cupiditate saepe quam officia aut placeat quas neque!",
+      "ACM is a perfect space for nurturing skills and developing bondings among your fellow mates. It was really exciting and fun to be part of the team as a member and the lead for the competitive programming team. Wishing all the best for the team to conquer more heights and spread love and happiness.",
   },
   {
-    image: "/t-avt-3.png",
-    name: "Jhon Doe",
-    position: "Customer",
+    image: "/aby.jpg",
+    name: "Aby Stalin",
+    position: "Alumni (2020-2024)",
     message:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum expedita odit beatae, cupiditate saepe quam officia aut placeat quas neque!",
+      "I played a key role in reviving the ACM Student Chapter at Amritapuri, unifying smaller college clubs under the ACM banner. We successfully organized the first ICPC event post-COVID, which was a significant achievement. This experience enhanced my managerial and technical skills, and I made lasting friendships. Being part of this chapter was immensely rewarding, teaching me valuable lessons in leadership and teamwork.",
+  },
+  {
+    image: "/Dhanush.jpg",
+    name: "Dhanush Krishna R",
+    position: "Alumni (2020-2024)",
+    message:
+      "Great place where you can learn, collaborate, and build a strong network of amazing people.",
   },
 ];
 
