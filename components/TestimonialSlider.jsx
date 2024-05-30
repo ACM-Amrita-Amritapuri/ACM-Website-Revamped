@@ -13,7 +13,7 @@ const testimonialData = [
     name: "Dhruv R Krishnan",
     position: "Core Member",
     message:
-      "I was the one and only kundan in ACM",
+      "it was a very good experience to lead the club as one of the core member",
   },
   {
     image: "/t-avt-2.png",
