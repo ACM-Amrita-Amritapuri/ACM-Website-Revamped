@@ -15,20 +15,28 @@ import {
 import {
   IoLayers
 } from "react-icons/io5";
+
 import {
   FaPeopleRoof
 } from "react-icons/fa6";
 
+import { 
+  AiOutlineUsergroupAdd 
+} from "react-icons/ai";
+
+
+
 // nav data
 export const navData = [
-  {name: "home", path: "/", Icon: HiHome },
-  {name: "about", path: "/about", Icon: BsInfoCircleFill },
-  {name: "goals", path: "/goals", Icon: HiRectangleGroup },
-  {name: "mentors",path:"/mentors",Icon: FaPeopleRoof},
-  {name: "faculty",path:"/faculty",Icon: HiUsers},
-  {name: "projects", path: "/projects", Icon: IoLayers },
-  {name: "testimonials",path: "/testimonials",Icon: HiChatBubbleBottomCenterText},
-  {name: "contact",path: "/contact",Icon: HiEnvelope},
+  {name: "Home", path: "/", Icon: HiHome },
+  {name: "About", path: "/about", Icon: BsInfoCircleFill },
+  {name: "Goals", path: "/goals", Icon: HiRectangleGroup },
+  {name: "Core Committee",path:"/mentors",Icon: FaPeopleRoof},
+  {name: "Faculty",path:"/faculty",Icon: HiUsers},
+  {name: "Advisory Committee", path: "/advisorycommittee", Icon: AiOutlineUsergroupAdd},
+  {name: "Projects", path: "/projects", Icon: IoLayers },
+  {name: "Testimonials",path: "/testimonials",Icon: HiChatBubbleBottomCenterText},
+  {name: "Contact",path: "/contact",Icon: HiEnvelope},
 ];
 
 const Nav = () => {
