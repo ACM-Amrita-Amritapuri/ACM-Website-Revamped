@@ -11,9 +11,9 @@ const Students = () => {
       src: "/akhil.jpg",
       name: "Akhil M Menon",
       position: "Chair and Web Lead",
-      instagram: "",
-      linkedin: "",
-      github: ""
+      instagram: "https://instagram.com/_akhilmenon",
+      linkedin: "https://www.linkedin.com/in/akhil-menon-513503244/",
+      github: "https://github.com/TheCrazyman1324"
     },
     {
       src: "/hari blow.jpg",
@@ -27,33 +27,33 @@ const Students = () => {
       src: "/gps 2.jpg",
       name: "Gowri P Shenoy",
       position: "Secretary",
-      instagram: "",
-      linkedin: "",
-      github: ""
+      instagram: "https://www.instagram.com/locateme._gps?igsh=NHEyMmg2dmFicjA3",
+      linkedin: "https://www.linkedin.com/in/gowri-shenoy-676100284",
+      github: "https://github.com/Locateme-GPS"
     },
     {
       src: "/ajan.jpg",
       name: "Ajan",
       position: "Treasurer",
-      instagram: "",
-      linkedin: "",
-      github: ""
+      instagram: "https://www.instagram.com/ajannnnnnnnnnnnnnnnnn?igsh=N2s4dW85aXBrYmNu",
+      linkedin: "https://www.linkedin.com/in/ajan-s",
+      github: "https://github.com/ajan421"
     },
     {
       src: "/avishek.jpg",
       name: "Avishek Rauniyar",
       position: "Program Co-ordinator",
-      instagram: "",
-      linkedin: "",
-      github: ""
+      instagram: "https://www.instagram.com/avishek8136/",
+      linkedin: "https://linkedin.com/in/avishek-rauniyar-b29275259",
+      github: "https://github.com/Avishek8136"
     },
     {
       src: "/lokesh.jpg",
       name: "Lokesh Yarramallu",
       position: "AI Lead",
-      instagram: "",
-      linkedin: "",
-      github: ""
+      instagram: "https://www.instagram.com/lokesh_yarramallu?igsh=Ym96YWM4Njg5eWVx",
+      linkedin: "https://www.linkedin.com/in/lokeshyarramallu/",
+      github: "https://github.com/LokeshYarramallu"
     },
     {
       src: "/niranjan.jpg",
@@ -67,25 +67,25 @@ const Students = () => {
       src: "/nanditha.jpg",
       name: "Nanditha",
       position: "CP Lead",
-      instagram: "",
-      linkedin: "",
-      github: ""
+      // instagram: "",
+      linkedin: "https://www.linkedin.com/in/nandithank/",
+      github: "https://github.com/NandithaNK"
     },
     {
-      src: "/athul.png",
-      name: "ATHUL GIREESH",
-      position: "Social Media Manager",
-      instagram: "",
-      linkedin: "",
-      github: ""
+      src: "/surya.jpeg",
+      name: "Surya",
+      position: "Design lead",
+      instagram: "https://www.instagram.com/s.u.r_y.a?igsh=OTFvMnA3ZmQ1Zmtt",
+      linkedin: "https://www.linkedin.com/me?trk=p_mwlite_feed-secondary_nav",
+      github: "https://github.com/Suryakiran071"
     },
     {
-      src: "/gautham.png",
-      name: "Gautham Krishna",
-      position: "Design Lead",
-      instagram: "",
-      linkedin: "",
-      github: ""
+      src: "/Navneeth.jpeg",
+      name: "Navneeth",
+      position: "Creative head",
+      instagram: "https://www.instagram.com/_navth/",
+      linkedin: "https://www.linkedin.com/in/navaneeth-n-817658271/",
+      github: "https://github.com/navth"
     }
   ];
 
@@ -109,13 +109,13 @@ const Students = () => {
 
   return (
     <Flex flexDirection="column" alignItems="center" className=''>
-      <Flex justifyContent="center" mb={10} pt={5} pb={1} className="faculty-header">
+      <Flex justifyContent="center" mb={3} pb={1} className="faculty-header">
         <motion.h2
           variants={fadeIn("up", 0.2)}
           initial="hidden"
           animate="show"
           exit="hidden"
-          className="h2 xl:mt-12"
+          className="h2 xl:mt-0"
         >
           <span className="text-accent">Core </span> Committee
         </motion.h2>
@@ -123,7 +123,7 @@ const Students = () => {
       <Box
         width="100%"
         overflowY="auto"
-        height={{ base: '50vh', lg: '64vh' }}
+        height={{ base: '50vh', lg: '65vh' }}
         className="backstudmanage"
         pb={50}
         css={{

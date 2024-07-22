@@ -81,13 +81,13 @@ const Advisory = () => {
 
   return (
     <Flex flexDirection="column" alignItems="center" className='backstudmanage'>
-      <Flex justifyContent="center" mb={10} pt={5} pb={1} className="faculty-header">
+      <Flex justifyContent="center" mb={3} pb={1} className="faculty-header">
         <motion.h2
           variants={fadeIn("up", 0.2)}
           initial="hidden"
           animate="show"
           exit="hidden"
-          className="h2 xl:mt-12"
+          className="h2 xl:mt-0"
         >
           <span className="text-accent">Alumni </span> Committee
         </motion.h2>
