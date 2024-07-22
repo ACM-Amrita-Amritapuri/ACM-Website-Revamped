@@ -17,12 +17,9 @@ import {
 } from "react-icons/io5";
 
 import {
-  FaPeopleRoof
+  FaPeopleRoof,
+  FaUserGraduate
 } from "react-icons/fa6";
-
-import { 
-  AiOutlineUsergroupAdd 
-} from "react-icons/ai";
 
 
 
@@ -33,7 +30,7 @@ export const navData = [
   {name: "Goals", path: "/goals", Icon: HiRectangleGroup },
   {name: "Core Committee",path:"/mentors",Icon: FaPeopleRoof},
   {name: "Faculty",path:"/faculty",Icon: HiUsers},
-  {name: "Advisory Committee", path: "/advisorycommittee", Icon: AiOutlineUsergroupAdd},
+  {name: "Alumni Advisory", path: "/advisorycommittee", Icon: FaUserGraduate},
   {name: "Projects", path: "/projects", Icon: IoLayers },
   {name: "Testimonials",path: "/testimonials",Icon: HiChatBubbleBottomCenterText},
   {name: "Contact",path: "/contact",Icon: HiEnvelope},

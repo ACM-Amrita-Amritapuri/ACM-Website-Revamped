@@ -2,6 +2,8 @@ import React from 'react';
 import { Box, Grid, Text, Flex } from '@chakra-ui/react';
 import StudentCard from "./StudentCard";
 import 'react-responsive-carousel/lib/styles/carousel.min.css';
+import { motion } from "framer-motion";
+import { fadeIn } from "../../variants";
 
 const Students = () => {
   const studentCards = [
@@ -106,16 +108,24 @@ const Students = () => {
   };
 
   return (
-    <Flex flexDirection="column" alignItems="center" className='backstudmanage'>
-      <Flex justifyContent="center" mb={10}>
-        <Box h={12} w={3} mr={3} mt="17px" bgGradient="linear(to-t, blue.700, blue.400)" rounded="sm"></Box>
-        <Text fontSize="5xl" fontWeight="bold" textAlign="center" color="white">Core Committee</Text>
+    <Flex flexDirection="column" alignItems="center" className=''>
+      <Flex justifyContent="center" mb={10} pt={5} pb={1} className="faculty-header">
+        <motion.h2
+          variants={fadeIn("up", 0.2)}
+          initial="hidden"
+          animate="show"
+          exit="hidden"
+          className="h2 xl:mt-12"
+        >
+          <span className="text-accent">Core </span> Committee
+        </motion.h2>
       </Flex>
       <Box
         width="100%"
         overflowY="auto"
         height={{ base: '50vh', lg: '64vh' }}
         className="backstudmanage"
+        pb={50}
         css={{
           '&::-webkit-scrollbar': {
             width: '10px',
@@ -134,7 +144,7 @@ const Students = () => {
           },
         }}
       >
-        <Grid templateColumns="repeat(5, 1fr)" gap={5}>
+        <Grid templateColumns={{ base: '1fr', md: 'repeat(2, 1fr)', lg: 'repeat(4, 1fr)' }} gap={5}>
           {renderCards()}
         </Grid>
       </Box>
