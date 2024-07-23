@@ -39,13 +39,13 @@ const Advisory = () => {
     },
     {
       src: "/kisore.jpg",
-      name: "Kisor.G",
+      name: "Kisor G",
       linkedin: "www.linkedin.com/in/kisor-g",
       github: " "
     },
     {
       src: "/athul.png",
-      name: "ATHUL GIREESH",
+      name: "Athul Gireesh",
       linkedin: "https://www.linkedin.com/in/athul-gireesh-02b4a8227/",
       github: "https://github.com/Athulg19"
     },
@@ -89,7 +89,7 @@ const Advisory = () => {
           exit="hidden"
           className="h2 xl:mt-0"
         >
-          <span className="text-accent">Alumni </span> Committee
+          <span className="text-accent">Alumni </span> Advisory
         </motion.h2>
       </Flex>
       <Box
