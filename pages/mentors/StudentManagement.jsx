@@ -33,7 +33,7 @@ const Students = () => {
     },
     {
       src: "/ajan.jpg",
-      name: "Ajan",
+      name: "Ajan S",
       position: "Treasurer",
       instagram: "https://www.instagram.com/ajannnnnnnnnnnnnnnnnn?igsh=N2s4dW85aXBrYmNu",
       linkedin: "https://www.linkedin.com/in/ajan-s",
@@ -59,13 +59,13 @@ const Students = () => {
       src: "/niranjan.jpg",
       name: "Niranjan",
       position: "Cyber Lead",
-      instagram: "",
-      linkedin: "",
-      github: ""
+      instagram: "https://www.instagram.com/nirx_nj_xn/",
+      linkedin: "http://www.linkedin.com/in/-niranjan-s",
+      github: "https://github.com/sonu-2004"
     },
     {
       src: "/nanditha.jpg",
-      name: "Nanditha",
+      name: "Nanditha Nandakumar",
       position: "CP Lead",
       // instagram: "",
       linkedin: "https://www.linkedin.com/in/nandithank/",
@@ -73,7 +73,7 @@ const Students = () => {
     },
     {
       src: "/surya.jpeg",
-      name: "Surya",
+      name: "Surya Kiran",
       position: "Design lead",
       instagram: "https://www.instagram.com/s.u.r_y.a?igsh=OTFvMnA3ZmQ1Zmtt",
       linkedin: "https://www.linkedin.com/me?trk=p_mwlite_feed-secondary_nav",
@@ -81,11 +81,43 @@ const Students = () => {
     },
     {
       src: "/Navneeth.jpeg",
-      name: "Navneeth",
+      name: "Navneeth N",
       position: "Creative head",
       instagram: "https://www.instagram.com/_navth/",
       linkedin: "https://www.linkedin.com/in/navaneeth-n-817658271/",
       github: "https://github.com/navth"
+    },
+    {
+      src: "/aleena.jpg",
+      name: "Aleena Sebastian",
+      position: "Web Co-Lead",
+      instagram: "https://www.instagram.com/_navth/",
+      linkedin: "https://www.linkedin.com/in/navaneeth-n-817658271/",
+      github: "https://github.com/navth"
+    },
+    {
+      src: "/abhinav.jpg",
+      name: "Abhinav Manoj",
+      position: "AI Co-Lead",
+      instagram: "https://www.instagram.com/abhinav_m_rudra?igsh=MTQ1Z2I5YnRibXdq&utm_source=qr",
+      linkedin: "https://www.linkedin.com/in/abhinav-manoj-8ab8b1221?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app",
+      github: "https://github.com/AbhinavRudra"
+    },
+    {
+      src: "/vasu.jpg",
+      name: "Vasudev B",
+      position: "Cyber Co-Lead",
+      instagram: "https://www.instagram.com/va_zzu_b.riz/",
+      linkedin: "https://www.linkedin.com/vasudevb25",
+      github: "https://github.com/vasudevb25"
+    },
+    {
+      src: "/karthik.jpg",
+      name: "Karthik Kishor",
+      position: "CP Co-Lead",
+      instagram: "https://www.instagram.com/karthikkishor_kk",
+      linkedin: "https://www.linkedin.com/in/karthikkishorkk",
+      github: "https://github.com/thekungfukid"
     }
   ];
 
