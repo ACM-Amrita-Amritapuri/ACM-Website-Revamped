@@ -29,12 +29,12 @@ export const aboutData = [
     title: "SIG AI",
     info: [
       {
-        title: "Artificial Intelligence",
-        stage: "2012 - 2023",
+        title: "Hack the Plan Winners",
+        stage: "2022-23",
       },
       {
-        title: "Web Developer - ABC Agency",
-        stage: "2010 - 2012",
+        title: "Commercially Deployed Software",
+        stage: "Dhruv R Krishnan",
       }
     ],
   },
@@ -55,12 +55,12 @@ export const aboutData = [
     title: "SIG Cyber",
     info: [
       {
-        title: "ICPC Asia-West Regional Finalists",
-        stage: "Mayank Pugalia & Ashwin",
+        title: "Adversary CTF Winner 2023 @ c0c0n Conference",
+        stage: "Akhil M Menon",
       },
       {
-        title: "2 Teams Awarded at Smart India Hackathon",
-        stage: "2021-22",
+        title: "Runner-Up Dome CTF 2022",
+        stage: "Akhil M Menon",
       },
     ],
   },
@@ -68,25 +68,25 @@ export const aboutData = [
     title: "Glitch",
     info: [
       {
-        title: "ICPC Asia-West Regional Finalists",
-        stage: "Mayank Pugalia & Ashwin",
+        title: "Multiple Internships",
+        stage: 'Ammachi Labs'
       },
       {
-        title: "2 Teams Awarded at Smart India Hackathon",
+        title: "GameJam Winners",
         stage: "2021-22",
       },
     ],
   },
   {
-    title: "Web @ ACM",
+    title: "Web@ACM",
     info: [
       {
-        title: "ICPC Asia-West Regional Finalists",
-        stage: "Mayank Pugalia & Ashwin",
+        title: "Multiple Internships",
+        stage: 'ApniCareer'
       },
       {
-        title: "2 Teams Awarded at Smart India Hackathon",
-        stage: "2021-22",
+        title: "Amrita Amritapuri College Navigation App",
+        stage: "NaviG",
       },
     ],
   }
@@ -193,7 +193,7 @@ const About = () => {
               {/* experience */}
               <div className="relative flex-1 after:w-[1px] after:h-full after:bg-white/10 after:absolute after:top-0 after:right-0">
                 <div className="text-2xl xl:text-4xl font-extrabold text-accent mb-2">
-                  <CountUp start={0} end={12} duration={4} />
+                  <CountUp start={0} end={13} duration={4} />
                 </div>
                 <div className="text-xs uppercase tracking-[1px] leading-[1.4] max-w-[100px]">
                   internships acquired
