@@ -39,13 +39,13 @@ const Advisory = () => {
     },
     {
       src: "/kisore.jpg",
-      name: "Kisor.G",
+      name: "Kisor G",
       linkedin: "www.linkedin.com/in/kisor-g",
       github: " "
     },
     {
       src: "/athul.png",
-      name: "ATHUL GIREESH",
+      name: "Athul Gireesh",
       linkedin: "https://www.linkedin.com/in/athul-gireesh-02b4a8227/",
       github: "https://github.com/Athulg19"
     },
