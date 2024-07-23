@@ -89,7 +89,7 @@ const Advisory = () => {
           exit="hidden"
           className="h2 xl:mt-0"
         >
-          <span className="text-accent">Alumni </span> Committee
+          <span className="text-accent">Alumni </span> Advisory
         </motion.h2>
       </Flex>
       <Box
