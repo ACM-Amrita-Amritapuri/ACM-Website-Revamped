@@ -1,76 +1,56 @@
 import { motion } from "framer-motion";
-import ParticlesContainer from "../../components/ParticlesContainer";
-import ProjectsBtn from "../../components/ProjectsBtn";
-import Avatar from "../../components/Avatar";
-import { fadeIn } from "../../variants";
 
 const BridgeCourse = () => {
   return (
-    <div className="bg-primary/60 min-h-screen flex flex-col">
-      {/* text */}
-      <div className="flex-grow w-full bg-gradient-to-r from-primary/10 via-black/30 to-black/10">
-        <div className="text-center flex flex-col justify-center xl:pt-40 xl:text-left h-full container mx-auto px-4">
-          {/* title */}
-          <motion.h1
-            variants={fadeIn("down", 0.2)}
-            initial="hidden"
-            animate="show"
-            exit="hidden"
-            className="h1"
-          >
-            Bridging the Gap: <span className="text-accent">Empowering First-Year Students</span>
-          </motion.h1>
+    <div className="min-h-screen flex flex-col bg-gradient-to-r from-blue-800 to-blue-900 text-white">
+      <header className="text-center pt-20 pb-10">
+        <h1 className="text-4xl font-bold">
+          Bridging the Gap: <span className="text-yellow-300">Empowering First-Year Students</span>
+        </h1>
+      </header>
 
-          {/* subtitle */}
-          <motion.p
-            variants={fadeIn("down", 0.3)}
-            initial="hidden"
-            animate="show"
-            exit="hidden"
-            className="max-w-md xl:max-w-xl mx-auto xl:mx-0 mb-10 xl:mb-16"
-          >
-            The Bridge Course for S1 is designed to help first-year engineering students, regardless of their background, explore and develop essential technical skills. This two-month program, organized by the ACM Student Chapter Amritapuri, offers a unique opportunity to delve into the exciting fields of Artificial Intelligence, Cybersecurity, Competitive Programming, and Web Development. Through a balanced mix of theoretical knowledge and practical applications, the course aims to ignite students' passion for technology and guide them in discovering their areas of interest. Join us to build a strong foundation, gain valuable insights, and embark on a journey toward your chosen path in the world of engineering and technology.
-          </motion.p>
-
-          {/* btn */}
-          <div className="flex justify-center xl:hidden relative">
-            <ProjectsBtn />
-          </div>
-          <motion.div
-            variants={fadeIn("down", 0.4)}
-            initial="hidden"
-            animate="show"
-            exit="hidden"
-            className="hidden xl:flex"
-          >
-            <ProjectsBtn />
-          </motion.div>
-        </div>
-      </div>
-      {/* image */}
-      <div className="relative w-full h-[50vh] lg:h-[75vh] flex items-center justify-center">
-        {/* bg img */}
-        <div
-          role="img"
-          className="bg-none xl:bg-explosion xl:bg-cover xl:bg-right xl:bg-no-repeat w-full h-full absolute mix-blend-color-dodge translate-z-0"
-          aria-hidden
-        />
-
-        {/* particles */}
-        <ParticlesContainer />
-
-        {/* avatar */}
+      <main className="flex-grow container mx-auto px-4 py-10">
         <motion.div
-          variants={fadeIn("up", 0.5)}
-          initial="hidden"
-          animate="show"
-          exit="hidden"
-          transition={{ duration: 1, ease: "easeInOut" }}
-          className="mt-10 lg:mt-0 w-full h-full max-w-[500px] max-h-[300px] relative lg:absolute lg:bottom-[20%] lg:right-[10%]"
+          initial={{ opacity: 0, y: 20 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.5 }}
+          className="text-center"
         >
-          <Avatar />
+          <p className="max-w-3xl mx-auto mb-10 text-lg">
+            The Bridge Course for S1 is designed to help first-year engineering students explore and develop essential technical skills. This two-month program, organized by the ACM Student Chapter Amritapuri, offers a unique opportunity to delve into the exciting fields of Artificial Intelligence, Cybersecurity, Competitive Programming, and Web Development. Through a balanced mix of theoretical knowledge and practical applications, the course aims to ignite students' passion for technology and guide them in discovering their areas of interest. Join us to build a strong foundation, gain valuable insights, and embark on a journey toward your chosen path in the world of engineering and technology.
+          </p>
         </motion.div>
-      </div>
+
+        <motion.div
+          initial={{ opacity: 0, y: 20 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.5 }}
+          className="flex flex-col items-center space-y-4"
+        >
+          <a
+            href="/path-to-your-pdf-file.pdf" // Update with the actual path to your PDF
+            target="_blank"
+            rel="noopener noreferrer"
+            className="px-8 py-3 bg-yellow-300 text-blue-900 font-bold rounded-lg hover:bg-yellow-400 transition duration-300"
+          >
+            View Course Details (PDF)
+          </a>
+          <a
+            href="https://forms.gle/your-google-form-link" // Update with your Google Form link
+            target="_blank"
+            rel="noopener noreferrer"
+            className="px-8 py-3 bg-yellow-300 text-blue-900 font-bold rounded-lg hover:bg-yellow-400 transition duration-300"
+          >
+            Register Here
+          </a>
+        </motion.div>
+      </main>
+
+      <footer className="text-center py-10">
+        <p className="text-sm">
+          © 2024 ACM Student Chapter Amritapuri. All Rights Reserved.
+        </p>
+      </footer>
     </div>
   );
 };
