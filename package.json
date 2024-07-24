@@ -31,7 +31,7 @@
     "framer-motion": "^10.18.0",
     "jquery": "^3.7.1",
     "mdb-react-ui-kit": "^8.0.0",
-    "next": "14.1.1",
+    "next": "^14.2.5",
     "react": "18.2.0",
     "react-countup": "^6.4.2",
     "react-dom": "18.2.0",
