@@ -1,11 +1,14 @@
 import { motion } from "framer-motion";
+import Bulb from "../../components/Bulb";
+import Circles from "../../components/Circles";
 
 const BridgeCourse = () => {
   return (
-    <div className="min-h-screen flex flex-col bg-gradient-to-r from-blue-800 to-blue-900 text-white">
-      <header className="text-center pt-20 pb-10">
-        <h1 className="text-4xl font-bold">
-          Bridging the Gap: <span className="text-yellow-300">Empowering First-Year Students</span>
+    <div className="min-h-screen flex flex-col bg-gradient-to-r from-blue-1000 to-blue-1800 text-white">
+        <Circles />
+      <header className="text-center pt-28 pb-10">
+        <h1 className="text-4xl font-bold ">
+          Bridging the Gap: <span className="text-accent">Empowering First-Year Students</span>
         </h1>
       </header>
 
@@ -31,15 +34,15 @@ const BridgeCourse = () => {
             href="/path-to-your-pdf-file.pdf" // Update with the actual path to your PDF
             target="_blank"
             rel="noopener noreferrer"
-            className="px-8 py-3 bg-yellow-300 text-blue-900 font-bold rounded-lg hover:bg-yellow-400 transition duration-300"
+            className="px-8 py-3 bg-blue-600 text-white-900 font-bold rounded-lg hover:bg-blue-400 transition duration-300"
           >
             View Course Details (PDF)
           </a>
           <a
-            href="https://forms.gle/your-google-form-link" // Update with your Google Form link
+            href="https://forms.gle/9RGeGo7mKkMLgqMX9" // Update with your Google Form link
             target="_blank"
             rel="noopener noreferrer"
-            className="px-8 py-3 bg-yellow-300 text-blue-900 font-bold rounded-lg hover:bg-yellow-400 transition duration-300"
+            className="px-8 py-3 bg-blue-600 text-white-900 font-bold rounded-lg hover:bg-blue-400 transition duration-300"
           >
             Register Here
           </a>
@@ -51,6 +54,7 @@ const BridgeCourse = () => {
           © 2024 ACM Student Chapter Amritapuri. All Rights Reserved.
         </p>
       </footer>
+      <Bulb />
     </div>
   );
 };
