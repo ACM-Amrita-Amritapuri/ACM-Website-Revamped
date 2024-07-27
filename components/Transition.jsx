@@ -31,8 +31,7 @@ const Transition = () => {
       aria-hidden
     >
       <div className="flex justify-center items-center w-full h-full">
-        {/* Add your image here   */}
-        {/*New logo*/}
+        {/* Add your image here */}
         <img src="/acm-blue-white.png" className="w-1/6" />
       </div>
     </motion.div>
