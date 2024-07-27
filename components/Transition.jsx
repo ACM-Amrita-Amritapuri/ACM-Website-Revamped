@@ -32,7 +32,7 @@ const Transition = () => {
     >
       <div className="flex justify-center items-center w-full h-full">
         {/* Add your image here */}
-        <img src="/acm-alone.png" className="w-1/6" />
+        <img src="/acm-blue-white.png" className="w-1/6" />
       </div>
     </motion.div>
       <motion.div
