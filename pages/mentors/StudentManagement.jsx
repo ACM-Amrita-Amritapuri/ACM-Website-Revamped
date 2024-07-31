@@ -19,9 +19,9 @@ const Students = () => {
       src: "/hari blow.jpg",
       name: "Hari G Narayan",
       position: "V.C and Glitch Lead",
-      instagram: "",
-      linkedin: "",
-      github: ""
+      instagram: "https://www.instagram.com/harinarayan721?igsh=ZjE4OHRoYTJrbWN4",
+      linkedin: "http://www.linkedin.com/in/hari-narayan-629867248",
+      github: "https://github.com/Hari-with-an-i"
     },
     {
       src: "/gps 2.jpg",
