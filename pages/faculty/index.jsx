@@ -2,7 +2,6 @@ import { motion, useAnimation } from "framer-motion";
 import { useEffect } from "react";
 import { useInView } from "react-intersection-observer";
 import FacultyManagement from './FacultyManagement';
-
 const Faculty = () => {
   // Animation controls for FacultyManagement
   const facultyControls = useAnimation();
