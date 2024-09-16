@@ -40,36 +40,12 @@ const Students = () => {
       github: "https://github.com/ajan421"
     },
     {
-      src: "/avishek.jpg",
-      name: "Avishek Rauniyar",
-      position: "Program Co-ordinator",
-      instagram: "https://www.instagram.com/avishek8136/",
-      linkedin: "https://linkedin.com/in/avishek-rauniyar-b29275259",
-      github: "https://github.com/Avishek8136"
-    },
-    {
       src: "/lokesh.jpg",
       name: "Lokesh Yarramallu",
       position: "AI Lead",
       instagram: "https://www.instagram.com/lokesh_yarramallu?igsh=Ym96YWM4Njg5eWVx",
       linkedin: "https://www.linkedin.com/in/lokeshyarramallu/",
       github: "https://github.com/LokeshYarramallu"
-    },
-    {
-      src: "/niranjan.jpg",
-      name: "Niranjan",
-      position: "Cyber Lead",
-      instagram: "https://www.instagram.com/nirx_nj_xn/",
-      linkedin: "http://www.linkedin.com/in/-niranjan-s",
-      github: "https://github.com/sonu-2004"
-    },
-    {
-      src: "/nanditha.jpg",
-      name: "Nanditha Nandakumar",
-      position: "CP Lead",
-      // instagram: "",
-      linkedin: "https://www.linkedin.com/in/nandithank/",
-      github: "https://github.com/NandithaNK"
     },
     {
       src: "/surya.jpeg",

@@ -46,11 +46,6 @@ const FacultyManagement = () => {
       src: "/Priyamam1.png",
       name: "Priya M",
       position: "Executive Committee Member",
-    },
-    {
-      src: "",
-      name: "AlgoQuest",
-      position: "recr{you_found_me!}",
     }
   ];
 
