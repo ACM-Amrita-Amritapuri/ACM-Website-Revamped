@@ -9,11 +9,11 @@ const Students = () => {
   const studentCards = [
     {
       src: "/akhil.jpg",
-      name: "Akhil M Menon",
-      position: "Chair and Web Lead",
+      name: "Akhil Menon M",
+      position: "Chair and Web,Cyber Lead",
       instagram: "https://instagram.com/_akhilmenon",
       linkedin: "https://www.linkedin.com/in/akhil-menon-513503244/",
-      github: "https://github.com/TheCrazyman1324"
+      github: "https://github.com/muuduuu"
     },
     {
       src: "/hari blow.jpg",
