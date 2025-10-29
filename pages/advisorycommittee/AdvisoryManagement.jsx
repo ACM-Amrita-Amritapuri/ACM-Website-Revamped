@@ -10,7 +10,7 @@ const Advisory = () => {
     {
       src: "/akhil.jpg",
       name: "Akhil Menon M",
-      linkedin: "https://www.linkedin.com/in/akhil-menon-513503244/",
+      linkedin: "https://www.linkedin.com/in/akhil-m3non/",
       github: "https://github.com/muuduuu"
     },
     {
