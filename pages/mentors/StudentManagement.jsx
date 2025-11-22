@@ -104,14 +104,14 @@ const Students = () => {
       linkedin: "https://www.linkedin.com/in/anirudh-suresh-5015b7328?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
       github: "https://github.com/Anirudh05bit"
     },
-    {
-      src: "/harshita.png",
-      name: "Harshita",
-      position: "Design Lead",
-      instagram: "https://www.instagram.com/va_zzu_b.riz/",
-      linkedin: "https://www.linkedin.com/in/harshitha-dandamudi-b9b326289?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app",
-      github: "https://github.com/harshi1ha"
-    },
+    // {
+    //   src: "/harshita.png",
+    //   name: "Harshita",
+    //   position: "Design Lead",
+    //   instagram: "https://www.instagram.com/va_zzu_b.riz/",
+    //   linkedin: "https://www.linkedin.com/in/harshitha-dandamudi-b9b326289?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app",
+    //   github: "https://github.com/harshi1ha"
+    // },
     {
       src: "/aditi.png",
       name: "Aditi S",
@@ -124,7 +124,7 @@ const Students = () => {
     {
       src: "/karthikrs.jpeg",
       name: "Karthik R S",
-      position: "Core",
+      position: "Design Lead",
       instagram: "https://www.instagram.com/_k.arthiii/profilecard/?igsh=MWRrd2R4eHBpemdibg==",
       linkedin: "https://www.linkedin.com/in/karthik-r-s/",
       github: "https://github.com/karthikrs05"
