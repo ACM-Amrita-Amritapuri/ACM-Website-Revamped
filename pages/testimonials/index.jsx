@@ -1,34 +1,3 @@
 import { motion } from "framer-motion";
-
 import TestimonialSlider from "../../components/TestimonialSlider";
-import { fadeIn } from "../../variants";
-
-const Testimonials = () => {
-  return (
-    <div className="h-full bg-primary/30 py-32 text-center">
-      <div className="container mx-auto h-full flex flex-col justify-center">
-        <motion.h2
-          variants={fadeIn("up", 0.2)}
-          initial="hidden"
-          animate="show"
-          exit="hidden"
-          className="h2 mb-8 xl:mb-0"
-        >
-          Experiences & <span className="text-accent">Insights.</span>
-        </motion.h2>
-
-        {/* slider */}
-        <motion.div
-          variants={fadeIn("up", 0.4)}
-          initial="hidden"
-          animate="show"
-          exit="hidden"
-        >
-          <TestimonialSlider />
-        </motion.div>
-      </div>
-    </div>
-  );
-};
-
-export default Testimonials;
+export default function Testimonials(){return <div className="subpage testimonials-page"><section className="subpage-hero compact section-shell"><div><p className="section-kicker">[ Voices / alumni ]</p><h1>Built here.<br/><span>Carried forward.</span></h1></div><div className="subpage-intro"><b>COMMUNITY LOGS</b><p>Stories from people who found their crew, sharpened their craft, and helped shape this chapter.</p></div></section><motion.section className="testimonial-deck section-shell" initial={{opacity:0}} animate={{opacity:1}} transition={{delay:.2}}><TestimonialSlider/></motion.section></div>}

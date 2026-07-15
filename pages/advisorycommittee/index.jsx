@@ -22,7 +22,7 @@ const Advisory = () => {
   };
 
   return (
-    <div style={{ minHeight: '100vh', padding: '100px' }}>
+    <div className="people-page" style={{ minHeight: '100vh' }}>
       <div style={{ marginBottom: '50px' }}>
         <motion.div
           ref={AdvisoryRef}

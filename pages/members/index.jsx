@@ -35,7 +35,7 @@ const Members = () => {
   };
 
   return (
-    <div style={{ minHeight: '100vh', padding: '20px', overflowY: 'scroll' }}>
+    <div className="people-page" style={{ minHeight: '100vh' }}>
       <div style={{ marginBottom: '50px' }}>
         <motion.div
           ref={studentRef}

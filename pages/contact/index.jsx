@@ -1,34 +1,6 @@
 import { motion } from "framer-motion";
 import { BsInstagram, BsLinkedin, BsGithub } from "react-icons/bs";
-import { fadeIn } from "../../variants";
-import BulbFull from "../../components/BulbFull";
-import Circles from "../../components/Circles";
-import BusinessCard from "./BusinessCard"; // Import the BusinessCard component
+import { HiArrowRight } from "react-icons/hi2";
 
-const Contact = () => {
-  return (
-    <div className="h-full bg-primary/30">
-      <Circles />
-      <div className="container mx-auto py-32 text-center xl:text-left flex items-center justify-center h-full">
-        <motion.h2
-          variants={fadeIn("up", 0.2)}
-          initial="hidden"
-          animate="show"
-          exit="hidden"
-          className="h2 text-center mb-12"
-        >
-          Let's <span className="text-accent">connect.</span>
-        </motion.h2>
-        <div className="flex flex-col w-full max-w-[700px]">
-            {/* Add BusinessCard component */}
-            <div className="flex justify-center">
-              <BusinessCard />
-          </div>
-        </div>
-      </div>
-      <BulbFull />
-    </div>
-  );
-};
-
-export default Contact;
+const socials=[{label:"LinkedIn",Icon:BsLinkedin,href:"https://www.linkedin.com/company/76237943/"},{label:"GitHub",Icon:BsGithub,href:"https://github.com/ACM-Amrita-Amritapuri"},{label:"Instagram",Icon:BsInstagram,href:"https://www.instagram.com/acm.amrita/"}];
+export default function Contact(){return <div className="subpage contact-page"><section className="contact-shell section-shell"><motion.div initial={{opacity:0,y:25}} animate={{opacity:1,y:0}}><p className="section-kicker">[ Open channel ]</p><h1>Let’s make<br /><span>something happen.</span></h1><p>Collaborations, speaker sessions, sponsorships, project ideas—or just a question. Our inbox is open.</p><a className="contact-mail" href="mailto:acmchapter@am.amrita.edu">acmchapter@am.amrita.edu <HiArrowRight/></a></motion.div><div className="contact-terminal"><div className="terminal-bar"><i/><i/><i/><span>contact.acm</span></div><div className="terminal-body"><p><b>$</b> locate chapter</p><strong>Amrita Vishwa Vidyapeetham<br/>Amritapuri, Kerala</strong><p><b>$</b> connect --social</p><div>{socials.map(({Icon,...social})=><a key={social.label} href={social.href} target="_blank" rel="noreferrer"><Icon/><span>{social.label}</span><i>↗</i></a>)}</div><small>STATUS: AVAILABLE FOR COLLABORATION</small></div></div></section></div>}
