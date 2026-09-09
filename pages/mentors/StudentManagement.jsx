@@ -89,14 +89,6 @@ const Students = () => {
       github: " https://github.com/Atrnl"
     },
     {
-      src: "/govardhan.jpeg",
-      name: "Govardhan Satya",
-      position: "AI Co-Lead",
-      instagram: "https://www.instagram.com/tycoongovardhan?igsh=cHlnbjg3MzUxeWoz",
-      linkedin: "https://www.linkedin.com/in/govardhan-satya-gadi-95803b216p",
-      github: "https://github.com/govardhansatya"
-    },
-    {
       src: "/anirudh.png",
       name: "Anirudh Suresh",
       position: "Web Dev Co-Lead",

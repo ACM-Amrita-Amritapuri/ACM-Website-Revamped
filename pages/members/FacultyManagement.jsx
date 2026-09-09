@@ -25,14 +25,14 @@ export default function FacultyManagement() {
                         width={200}  // Adjust width as necessary
                         height={300} // Adjust height as necessary
                     />
-                    <FacultyCards
+                    {/* <FacultyCards
                        src="/Jyothishanair.jpg"
                         name="Dr. Jyothisha Nair"
                         position="Chairperson"
                         mg="mr-0 sm:mt-9 md:mt-10 lg:mt-0"
                         width={200}  // Adjust width as necessary
                         height={300} // Adjust height as necessary
-                    />
+                    /> */}
                 </div>
                 <div className="faculty-row-1 flex justify-center items-center flex-wrap">
                     <FacultyCards

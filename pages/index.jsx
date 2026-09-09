@@ -1,5 +1,5 @@
 import Head from "next/head";
-import Image from "next/image";
+// import Image from "next/image";
 import Link from "next/link";
 import { motion } from "framer-motion";
 import { FiArrowUpRight, FiCode, FiCpu, FiLayers, FiLock } from "react-icons/fi";
@@ -82,7 +82,7 @@ export default function Home() {
       </section>
 
       <section className="event-feature section-shell" id="events">
-        <div className="event-image"><Image src="/openHouse.jpeg" alt="ACM Amritapuri open house" fill sizes="(max-width: 900px) 100vw, 50vw" /><span>LIVE / COLLABORATIVE / HANDS-ON</span></div>
+        <div className="event-image">{/* <Image src="/openHouse.jpeg" alt="ACM Amritapuri open house" fill sizes="(max-width: 900px) 100vw, 50vw" /> */}<span>LIVE / COLLABORATIVE / HANDS-ON</span></div>
         <div className="event-copy"><p className="section-kicker">[ Experiences over lectures ]</p><h2>Show up curious.<br /><span>Leave electric.</span></h2><p>Workshops, open houses, hackathons, tech talks, and community nights—built to turn passive interest into hands-on experience.</p><Link href="/events" className="text-link">Explore our events <HiArrowRight /></Link></div>
       </section>
 

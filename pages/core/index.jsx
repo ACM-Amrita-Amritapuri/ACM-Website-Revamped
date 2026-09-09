@@ -3,7 +3,6 @@ import PersonCard from "../../components/PersonCard";
 
 const core = [
   { name: "Anaswara A", role: "Cyber Co-Lead", area: "Cybersecurity", image: "/anashwara.jpeg" },
-  { name: "Govardhan Satya", role: "AI Co-Lead", area: "Artificial intelligence", image: "/govardhan.jpeg" },
 ];
 
 export default function Core() {
