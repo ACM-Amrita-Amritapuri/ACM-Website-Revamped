@@ -3,6 +3,10 @@ import PersonCard from "../../components/PersonCard";
 
 const core = [
   { name: "Anaswara A", role: "Cyber Co-Lead", area: "Cybersecurity", image: "/anashwara.jpeg" },
+  { name: "Sreelaya", role: "Secretary", area: "Core Committee", image: "/sreelaya.png" },
+  { name: "Mohith", role: "AI Co-Lead", area: "SIG AI", image: "/mohith.png" },
+  { name: "Poonguzhaly", role: "Cyber Co-Lead", area: "SIG Cyber", image: "/poonguzhaly.png" },
+  { name: "Meera", role: "Web & App Co-Lead", area: "SIG Web & App", image: "/meera.png" },
 ];
 
 export default function Core() {
