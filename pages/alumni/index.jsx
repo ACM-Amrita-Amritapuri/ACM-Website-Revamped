@@ -41,7 +41,7 @@ const alumni = {
     { name: "R Neeraja Anand", role: "AI Lead", image: "/neeraja.jpg" },
     { name: "Aby Stalin", role: "Creative Head", image: "/aby.jpg" },
     { name: "Sudhin S", role: "Competitive Programming Lead", image: "/sudhin.jpg" },
-    { name: "Akhil S Kumar", role: "Web Lead", image: "/me.jpg" },
+    { name: "Akhil S Kumar", role: "Web Lead", image: "/akhil-s-kumar.png" },
     { name: "Vipin Venu", role: "Cybersecurity Lead", image: "/vipin.jpg" },
   ],
 };
