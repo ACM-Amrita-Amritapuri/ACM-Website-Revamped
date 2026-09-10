@@ -7,11 +7,13 @@ import { fadeIn } from "../../variants";
 
 const FacultyManagement = () => {
   const facultyCards = [
+    /*
     {
       src: "/Jyothishanair.jpg",
       name: "Dr. Jyothisha Nair",
       position: "Chairperson",
     },
+    */
     {
       src: "/Swaminathanj.jpg",
       name: "Dr. Swaminathan J",
